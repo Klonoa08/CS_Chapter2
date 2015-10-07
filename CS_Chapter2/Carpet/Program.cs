@@ -10,8 +10,8 @@ namespace Carpet
         static void Main(string[] args)
         {
             double l = 10;
-            double w = 24;
-            Console.WriteLine("The price for carpeting per square foot
+            double w = 20;
+            Console.WriteLine("Cost of carpeting per sqaure foot is {0}, 2$ per square foot");
         }
     }
 }

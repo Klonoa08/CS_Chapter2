@@ -9,6 +9,9 @@ namespace Yards
     {
         static void Main(string[] args)
         {
+            double l = 25;
+            double w = 42;
+            Console.WriteLine("The cost for Carpteting the room is {0}", l * 9 + w * 9);
         }
     }
 }

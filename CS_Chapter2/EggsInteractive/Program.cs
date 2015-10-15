@@ -3,19 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EggsInteractive
+namespace Eggs
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double C1 = 29;
-            double C2 = 16;
-            double C3 = 11;
-            double C4 = 14;
-            // find the number of eggs produced in a month by each of the chickens
-            Console.WriteLine("The sum of eggs layed by all the chickens is {0} eggs.", C1 + C2 + C3 + C4);
-            Console.WriteLine("There are {0} dozen eggs", (C1 + C2 + C3 + C4) / 12);
+            string chicken, chicken2, chicken3, chicken4;
+            int egg, egg2, egg3, egg4;
+
+            Console.WriteLine("Enter the first integer");
+            chicken= Console.ReadLine();
+            egg= Convert.ToInt32(chicken);
+
+            Console.WriteLine("Enter the second integer");
+            chicken2= Console.ReadLine();
+            egg2 = Convert.ToInt32(chicken2);
+
+            Console.WriteLine("Enter the third integer");
+            chicken3= Console.ReadLine();
+            egg3 = Convert.ToInt32(chicken3);
+
+            Console.WriteLine("Enter the forth integer");
+            chicken4= Console.ReadLine();
+            egg4 = Convert.ToInt32(chicken4);
+            int sum = egg + egg2 + egg3 + egg4;
+            Console.WriteLine("the sum of {0} and {1} and {2} and {3} is {4}", chicken, chicken2, chicken3, chicken4, sum);
+
         }
     }
 }

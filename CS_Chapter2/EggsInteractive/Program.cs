@@ -12,6 +12,7 @@ namespace Eggs
             string chicken, chicken2, chicken3, chicken4;
             int egg, egg2, egg3, egg4;
 
+
             Console.WriteLine("Enter the first integer");
             chicken= Console.ReadLine();
             egg= Convert.ToInt32(chicken);
@@ -28,7 +29,7 @@ namespace Eggs
             chicken4= Console.ReadLine();
             egg4 = Convert.ToInt32(chicken4);
             int sum = egg + egg2 + egg3 + egg4;
-            Console.WriteLine("the sum of {0} and {1} and {2} and {3} is {4}", chicken, chicken2, chicken3, chicken4, sum);
+            Console.WriteLine("the sum of {0} and {1} and {2} and {3} is {4}");
 
         }
     }

@@ -9,9 +9,9 @@ namespace HoursAndMinutes
     {
         static void Main(string[] args)
         {
-            double m = 197;
+            double m = 140;
             double h = m / 60;
-            Console.WriteLine("{0} minutes is equal to {0} hours and {1} minutes.", m / 60, m % 60);
+            Console.WriteLine("{0} minutes is equal to {1} hours and {2} minutes.", m, m / 60, m % 60);
         }
     }
 }
